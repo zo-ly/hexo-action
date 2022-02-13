@@ -30,5 +30,5 @@ runs:
     - ${{ inputs.deploy_key }}
     - ${{ inputs.commit_msg }}
 branding:
-  icon: 'package'  
+  icon: 'package'
   color: 'blue'
