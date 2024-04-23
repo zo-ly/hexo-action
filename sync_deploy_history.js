@@ -2,9 +2,8 @@
 'use strict';
 
 const pathFn = require('path');
-const fs = require('fs');
 const parseConfig = require('hexo-deployer-git/lib/parse_config');
-const spawn = require('hexo-util/lib/spawn');
+const { spawn } = require('hexo-util');
 const Hexo = require('hexo');
 
 async function sync_deploy_history() {
